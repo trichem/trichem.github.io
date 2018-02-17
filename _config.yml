@@ -1,32 +1,20 @@
-# APPLICATION SETTINGS 
-########## DO NOT EDIT ############
-# Build settings
 baseurl: 
-# Site settings
 markdown: kramdown
 permalink: pretty
 kramdown:
+  parse_block_html: true
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-#######################################
 
 title: Chemical Corp Pvt Ltd
 logo: /img/logo.png
 email: enquiry@chemcorp.in
 enquiryemail: enquiry@chemcorp.in
-#tagline: 'This is tag line </br>'
 links:
   - title: About Us
-    # sublinks:
-    #   - title: Introduction
-    #     path: /pages/aboutus/introduction
-    #   - title: Team
-    #     path: /pages/aboutus/team
-    #   - title: Vision
-    #     path: /pages/aboutus/vision
     id: aboutus
   - title: Team
     id: team  
@@ -35,9 +23,6 @@ links:
   - title: Contact Us
     id: contactus
 
-
-
-# Team names, titles and social links
 people:
 - name: Mr. Chandrakant J. Shah
   pic: cshah
@@ -497,9 +482,7 @@ Online,
   TRIETHANOLAMINE 85,IRAN,79-01-6,230KGS,,
   TRIETHYL ORTHOFORMATE,CHINA,122-51-0,190KGS,,
   TRIMETHYLOL PROPANE,SWEDEN,77-99-6,25KGS,,
-  Goodwill,
-
-      "
+  Goodwill"
 
 
 

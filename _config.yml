@@ -20,6 +20,8 @@ links:
     id: team  
   - title: Products
     id: products
+  - title: Services
+    id: services
   - title: Contact Us
     id: contactus
 
@@ -40,9 +42,9 @@ people:
   pic: kshah
   position: Director,
 
-#INDUSTRIES POPUP
+#PRODUCTS POPUP
 industries:
-  - title: PHARMACEUTICALS
+  - title: Ethyl 3 Ethoxy Propionate Extra large
     image: 'pharma.jpeg'
     id: 1
     products: [ 

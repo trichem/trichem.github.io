@@ -653,7 +653,6 @@ img::-moz-selection {
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover{
     background-color: #eeeeee;
-    color:#EC1D24;
 }
 
 .square {
@@ -684,7 +683,7 @@ img::-moz-selection {
  }
 
  .company-name {
-    font-size: 61px;
+    font-size: 55px;
     font-weight: 1em;
     text-align: center;
     color: #{{site.data.template.color.primary}}
@@ -808,6 +807,10 @@ blockquote::before{
     .norm {
         font-size: 13px;
     }
+
+    .company-name {
+        font-size: 29px;
+     }
 }
 
 .blacktext {

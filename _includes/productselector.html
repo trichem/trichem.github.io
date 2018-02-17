@@ -1,0 +1,10 @@
+<script>
+    $(document)
+        .on('ready', function () {
+            var input = document.getElementById('product');
+            var patharray = window.location.pathname.split("/");
+            input.setAttribute('value', patharray[patharray.length - 1].toUpperCase());
+            input.disabled = true;
+        });
+
+</script>

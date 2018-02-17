@@ -1,0 +1,42 @@
+---
+layout: page
+parmalink: 'pages/products'
+parent: products
+---
+
+<br/>
+<br/>
+<br/>
+<div class="container">
+
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Make</th>
+        <th class="casno">CAS No.</th>
+        <th>Packing</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign words = site.products | split: ',,'; %} {% for word in words %}
+      <tr>
+        {% assign row = word | split: ','; %} {% for cell in row %} {% if row[2] == cell%}
+        <th class="casno">
+          <a href="/products/{{row[0] | remove: " " }}" style="color: black; text-decoration: none;">
+                {{cell}}
+                </a>
+        </th>
+        {% else %}
+        <th class="norm">
+          <a href="/products/{{row[0] | remove: " " }}" style="color: black; text-decoration: none;">
+                {{cell}}
+                </a>
+        </th>
+        {% endif%} {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

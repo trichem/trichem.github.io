@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body id="page-top" class="index">
+    {% include navbar.html id=page.parent %}
+
+    <div class="productname" style="background-image:url('/img/product-bg.jpg');">
+        <h1 style="text-align: center; color: white;">{{page.product}}</h1>
+    </div>
+    <div class="container">
+        <article style="font-size: 120%; text-align: left; color: black;">
+            {{page.description}}
+        </article>
+    </div>
+
+    <br/>
+    <div style="padding-left: 15px;  margin-top: 40px;">
+        <div data-spy="affix" data-offset-top="300" style="left: 15px;">
+            <a href="/pages/products" class="btn btn-primary btn-sm">
+           All Products
+        </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <center>
+        <div style="font-size: 200%; text-align: center; color: black;">
+            Request for Quote
+        </div>
+        <div style="font-size: 160%; text-align: center; color: black;">
+            To request for quote simply fill out the form or call us at <span style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">022-66312644/45/46/47</span>
+        </div>
+    </center>
+    <br/> {{content}} {% include enquiryform.html product = page.product%} {% include footer.html %} {% include js.html %}
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<div id="map" style="width:100%;height:450px"></div>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script>
+    function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(18.9255375, 72.8189646),
+            zoom: 16
+        }
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(18.9250081, 72.8195193),
+            title: "Chemical Corp Pvt Ltd."
+        });
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        marker.setMap(map);
+    }
+    myMap();
+</script>

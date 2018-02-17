@@ -1,0 +1,32 @@
+ {% for i in site.industries %}
+
+<div class="portfolio-modal modal fade" id="portfolioModal{{ i.id }}" tabindex="-1" role="dialog">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>
+                        {{ i.title}}
+                    </h2>
+
+                    {% for product in i.products %}
+                    <div class="product">
+                        <a href="/products/{{product | replace: " " , ""}}">
+                            <h4>
+                                {{product}}
+                            </h4>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

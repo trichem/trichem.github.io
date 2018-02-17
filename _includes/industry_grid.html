@@ -1,0 +1,26 @@
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading blacktext">Our products are widely used in:
+                </h2>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="row text-center">
+            {% for i in site.industries %}
+            <div class="col-centered col-md-5">
+                <a href="#portfolioModal{{ i.id }}" data-toggle="modal">
+                    <div class="square" style="background-image: url('/img/{{i.image}}'); background-position: center; background-repeat:no-repeat; background-size: cover;">
+                        <h3>
+                            {{i.title}}
+                        </h3>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

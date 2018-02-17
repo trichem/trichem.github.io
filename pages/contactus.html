@@ -1,0 +1,54 @@
+---
+layout: page
+parmalink: 'pages/contactus'
+parent: contactus
+---
+
+<br/>
+<br/>
+<br/>
+<div style="padding-right: 15px;padding-left: 15px;">
+    <div style="text-align: center; padding-bottom: 20px">
+        <h3>Location</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="map" style="width:100%;height:450px"></div>
+            <a class="btn btn-danger" target="_blank" style="margin-top: 10px;" href="https://www.google.com/maps/place/Chemical+Corp+Pvt.+Ltd./@18.927581,72.821677,16z/data=!4m5!3m4!1s0x0:0xcd3309d0ed2402d9!8m2!3d18.9251036!4d72.8217199?hl=en-US">View In Google Map</a>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMgVAs7_XD3jPE7HRuIIjeJs-sqlzArLY&callback=myMap">
+
+            </script>
+            <script>
+                function myMap() {
+                    var mapOptions = {
+                        center: new google.maps.LatLng(18.9250856, 72.8216771),
+                        zoom: 16
+                    }
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(18.9250856, 72.8216771),
+                        title: "Chemical Corp Pvt Ltd."
+                    });
+                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                    marker.setMap(map);
+                }
+                myMap();
+            </script>
+        </div>
+        <div class="col-sm-6">
+            <div style="font-size: 140%; text-align: center; padding-top: 20%; color: black">
+                <div style="text-align: center; color: black;padding-bottom: 18px">
+                    Chemical Corp Pvt. Ltd.
+                </div>
+                Office No.55, 5th Floor, Atlanta building, Plot No.209, Jamnalal Bajaj Road, Nariman Point, Mumbai 400 021.
+                <div style="text-align: center; color: black;padding-top: 18px">
+                    Tel: <span style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">022-66312644/45/46/47 </span>
+                </div>
+                <div style="text-align: center;color: black">
+                    E-mail : <a style="border: 0p; padding: 4px;" href="mailto:{{site.enquiryemail}}?Subject={{include.product | upcase}}"
+                        target="_top">{{site.enquiryemail}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>

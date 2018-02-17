@@ -866,3 +866,7 @@ blockquote::before{
     margin-right:-4px;
 }
 
+.btn.map {
+    color: white;
+    background-color: #{{site.data.template.color.primary}}
+}

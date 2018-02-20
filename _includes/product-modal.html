@@ -1,5 +1,4 @@
- {% for i in site.industries %}
-
+{% for i in site.industries %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ i.id }}" tabindex="-1" role="dialog">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -11,19 +10,53 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>
+                    <h2 style="color:black;">
                         {{ i.title}}
                     </h2>
 
-                    {% for product in i.products %}
-                    <div class="product">
-                        <a href="/products/{{product | replace: " " , ""}}">
-                            <h4>
-                                {{product}}
-                            </h4>
-                        </a>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <span>
+                                <h5>Cas no: </h5>
+                                <h5 style="color:black">{{i.cas}}</h5>
+                            </span>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <span>
+                                <h5>Packing Size: </h5>
+                                <h5 style="color: black">{{i.size}}</h5>
+                            </span>
+                        </div>
                     </div>
-                    {% endfor %}
+
+                    <div style="text-align: left;">
+                        <h3>
+                            Applications/Usage:
+                        </h3>
+                        {% for product in i.usage %}
+                        <span class="badge badge-success">
+                            {{product}}
+                        </span>
+                        {% endfor %}
+                    </div>
+                    <div style="text-align: left;">
+                        <h3>
+                            Key Attributes:
+                        </h3>
+                        {% for a in i.attributes %}
+                        <span class="badge badge-success">
+                            {{a}}
+                        </span>
+                        {% endfor %}
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="/products/{{i.title | replace: " " , ""}}">
+                        <div class="btn btn-primary">Know more</div>
+                    </a>
                 </div>
             </div>
         </div>

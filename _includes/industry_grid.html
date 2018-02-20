@@ -11,15 +11,18 @@
         <br/>
         <div class="row text-center">
             {% for i in site.industries %}
+
             <div class="col-centered col-md-5">
                 <a href="#portfolioModal{{ i.id }}" data-toggle="modal">
-                    <div class="square" style="background-image: url('/img/{{i.image}}'); background-position: center; background-repeat:no-repeat; background-size: cover;">
+                    <div class="square" style="background-image: url('/img/{{i.image}}');">
+                        <div class="square overlay"></div>
                         <h3>
                             {{i.title}}
                         </h3>
                     </div>
                 </a>
             </div>
+
             {% endfor %}
         </div>
     </div>

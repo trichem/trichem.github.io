@@ -79,8 +79,32 @@
             To request for quote simply fill out the form or call us at
             <span style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">022-66312644/45/46/47</span>
         </div>
+        <br>
+        <br/> {{content}} {% include enquiryform.html product = page.product%}
+
     </center>
-    <br/> {{content}} {% include enquiryform.html product = page.product%} {% include footer.html %} {% include js.html %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <b style="color:#f09797; font-size: 15px;">Disclaimer</b>
+        <br>
+        <span style="font-size: 12.5px;">
+            The information above is believed to be accurate and represents the best information currently available to us. However,
+            we make no warranty of merchantability or any other warranty, express or implied, with respect to such information,
+            and we assume no liability resulting from its use. Users should make their own investigations to determine the
+            suitability of the information for their particular purposes. In no event shall Trichem Laboratories (Bombay)
+            Pvt. Ltd. be liable for any claims, losses, or damages of any third party or for lost profits or any special,
+            indirect, incidental, consequential or exemplary damages, howsoever arising, even if Trichem Laboratories (Bombay)
+            Pvt. Ltd. has been advised of the possibility of such damages.
+        </span>
+        <br>
+        <br>
+    </div>
+    {% include footer.html %} {% include js.html %}
 </body>
 
 </html>

@@ -10,17 +10,61 @@
         <h1 style="text-align: center; color: white;">{{page.product}}</h1>
     </div>
     <div style="padding-left: 15px;  margin-top: 40px;">
-            <div data-spy="affix" data-offset-top="300" style="left: 15px;">
-                <a href="/pages/products" class="btn btn-primary btn-sm">
-                    All Products
-                </a>
+        <div data-spy="affix" data-offset-top="300" style="left: 15px;">
+            <a href="/pages/products" class="btn btn-primary btn-sm">
+                All Products
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-6">
+                <span>
+                    <h5>Cas no </h5>
+                    <h5 style="color:black">{{page.cas}}</h5>
+                </span>
+            </div>
+            <div class="col-lg-6">
+                <span>
+                    <h5>Packing Size </h5>
+                    <h5 style="color:black">{{page.package}}</h5>
+                </span>
             </div>
         </div>
-     
-    <div class="container">
+
         <div class="article">
-            <h2>description</h2>
+            <h3>description</h3>
             <br/> {{page.description}}
+        </div>
+
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>
+                    Key attributes:
+                </h3>
+                <br> {% for product in page.attributes %}
+                <span class="badge badge-success">
+                    {{product}}
+                </span>
+                {% endfor %}
+
+            </div>
+            <div class="col-lg-6">
+                <h3>
+                    Industrial Usage:
+                </h3>
+                <br> {% for product in page.usage %}
+                <span class="badge badge-success">
+                    {{product}}
+                </span>
+                {% endfor %}
+            </div>
         </div>
     </div>
 

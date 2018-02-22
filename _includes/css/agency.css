@@ -666,6 +666,10 @@ img::-moz-selection {
     background: rgba(0, 0,0,0.5); 
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 .square h3 {
     position: relative;
     float: left;
@@ -677,10 +681,13 @@ img::-moz-selection {
  .product {
      text-align: left;
  }   
-.article {
+ .row {
+    text-align: center;
+ }
+ .article {
     padding-top: 80px;
     color: black;
-    font-size: 29px;
+    font-size: 24px;
 }
  .badge {
      font-size: 22px!important;

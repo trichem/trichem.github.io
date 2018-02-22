@@ -11,8 +11,8 @@ kramdown:
 
 title: Trichem Pvt. Ltd.
 logo: /img/logo.png
-email: enquiry@chemcorp.in
-enquiryemail: enquiry@chemcorp.in
+email: enquiry@trichem.com
+enquiryemail: enquiry@trichem.com
 links:
   - title: About Us
     id: aboutus
@@ -44,39 +44,20 @@ people:
 
 #PRODUCTS POPUP
 industries:
-  - title: N-Propyl Acetate (14)
+  - title: N-Propyl Acetate
     image: 'pharma.jpeg'
     id: 1
     cas: 109-60-4
     size: 180  Kgs (MS)
     usage: [
-        Coatings - Automotive OEM,
-        Coatings - Automotive Refinish,
-        Coatings - Can and Coil,
-        Coatings - General Industrial,
-        Coatings - Industrial Maintenance and Marine,
-        Coatings - Industrial Wood,
-        Coatings - Transportation,
-        Cosmetics & Personal Care - Nail Care & Flavoring Agent,
-        Graphic Arts - Printing Inks,
-    ]
-    attributes: [
-        Good solvent activity,
-        High electrical resistance,
-        Inert - Nonfood use,
-        Low MIR value,
-        Low surface tension,
-        Low water solubility,
-        Medium evaporation rate,
-        Mild odor,
-        Non-HAP,
-        Non-SARA,
-        Predicted to be readily biodegradable*,
-        REACH compliant,
-        Urethane grade
+        Coatings, 
+        Cosmetics and Personal Care, 
+        Graphic Arts,
+        Pharmaceutical, 
+        Printing Inks
     ]
 
-  - title: N-Propyl Alcohol Pure (45)
+  - title: N-Propyl Alcohol Pure
     image: 'adhesive.jpeg'
     id: 2
     cas: 109-60-4

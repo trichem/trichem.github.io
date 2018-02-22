@@ -13,7 +13,9 @@
                     <h2 style="color:black;">
                         {{ i.title}}
                     </h2>
+                    <br>
 
+                    <br>
                     <div class="row">
                         <div class="col-lg-6">
                             <span>
@@ -29,24 +31,16 @@
                             </span>
                         </div>
                     </div>
-
+                    <br>
+                    <br>
                     <div style="text-align: left;">
                         <h3>
-                            Applications/Usage:
+                            Industrial Usage:
                         </h3>
+                        <br>
                         {% for product in i.usage %}
                         <span class="badge badge-success">
                             {{product}}
-                        </span>
-                        {% endfor %}
-                    </div>
-                    <div style="text-align: left;">
-                        <h3>
-                            Key Attributes:
-                        </h3>
-                        {% for a in i.attributes %}
-                        <span class="badge badge-success">
-                            {{a}}
                         </span>
                         {% endfor %}
                     </div>
@@ -56,6 +50,9 @@
                     <br>
                     <a href="/products/{{i.title | replace: " " , ""}}">
                         <div class="btn btn-primary">Know more</div>
+                    </a>
+                    <a style="padding: 4px;" href="mailto:{{site.enquiryemail}}?Subject={{include.product | upcase}}" target="_top">
+                        <div class="btn btn-primary">Mail us</div>
                     </a>
                 </div>
             </div>

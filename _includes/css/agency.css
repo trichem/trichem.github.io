@@ -1,10 +1,28 @@
 
 body {
+ 
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
     overflow-x: hidden;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
     color: #{{ site.data.template.color.secondary-dark }};
-}
-
+  }
 .brand-title {
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
     color: white;
@@ -688,6 +706,20 @@ img::-moz-selection {
     padding-top: 80px;
     color: black;
     font-size: 24px;
+}
+table a {
+    text-decoration: none!important;
+    color: black;
+}
+
+footer {
+   position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
  .badge {
      font-size: 22px!important;

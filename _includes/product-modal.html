@@ -37,8 +37,7 @@
                         <h3>
                             Industrial Usage:
                         </h3>
-                        <br>
-                        {% for product in i.usage %}
+                        <br> {% for product in i.usage %}
                         <span class="badge badge-success">
                             {{product}}
                         </span>
@@ -48,11 +47,11 @@
                     <br>
                     <br>
                     <br>
-                    <a href="/products/{{i.title | replace: " " , ""}}">
-                        <div class="btn btn-primary">Know more</div>
-                    </a>
                     <a style="padding: 4px;" href="mailto:{{site.enquiryemail}}?Subject={{include.product | upcase}}" target="_top">
                         <div class="btn btn-primary">Mail us</div>
+                    </a>
+                    <a href="/products/{{i.title | replace: " " , " "}}">
+                        <div class="btn btn-primary">Know more</div>
                     </a>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-{% for i in site.industries %}
+{% for type in site.types %} {% for i in type.items %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ i.id }}" tabindex="-1" role="dialog">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -69,4 +69,4 @@
         </div>
     </div>
 </div>
-{% endfor %}
+{% endfor %}{% endfor %}

@@ -43,89 +43,228 @@ people:
   position: Director,
 
 #PRODUCTS POPUP
-industries:
-  - title: N-PROPYL ACETATE
-    image: 'pharma.jpeg'
-    id: 1
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    attributes: [
-        Good solvent activity,
-        High electrical resistance,
-        Inert - Nonfood use,
-        Low MIR value,
-        Low surface tension,
-        Low water solubility,
-        Medium evaporation rate,
-        Mild odor,
-        Non-HAP,
-        Non-SARA,
-        Urethane grade
-    ]
-    industries: [
-        Coatings, 
-        Cosmetics and Personal Care, 
-        Graphic Arts,
-        Pharmaceutical, 
-        Printing Inks
-    ]
 
-  - title: N-Propyl Alcohol Pure
-    image: 'adhesive.jpeg'
-    id: 2
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [ 
-    ]
-  - title: Iso Propyl Acetate (06)
-    image: 'paint.jpeg'
-    id: 3
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [
-    ]
-  - title: Iso Butyl Acetate (40)
-    image: 'agro.jpg'
-    id: 4
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [
-    ]
-  - title: Ethyl 3 Ethoxy Propionate [EEP] (67)
-    image: 'fuel.jpg'
-    id: 5
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [
+types:
+  - name: esters
+    items:
+      - title: N-PROPYL ACETATE
+        image: 'pharma.jpeg'
+        id: 1
+        cas: 109-60-4
+        size: 180  Kgs (MS)
+        attributes: [
+            Good solvent activity,
+            High electrical resistance,
+            Inert - Nonfood use,
+            Low MIR value,
+            Low surface tension,
+            Low water solubility,
+            Medium evaporation rate,
+            Mild odor,
+            Non-HAP,
+            Non-SARA,
+            Urethane grade
+        ]
+        industries: [
+            Coatings, 
+            Cosmetics and Personal Care, 
+            Graphic Arts,
+            Pharmaceutical, 
+            Printing Inks
+        ]
+      - title: ISO PROPYL ACETATE
+        image: 'adhesive.jpeg'
+        id: 2
+        cas: 108-21-4
+        size: 180 Kgs (HDPE)
+        attributes: [
+          Good solvent activity,
+          High electrical resistance,
+          Inert - Nonfood use,
+          Low MIR value,
+          Low surface tension,
+          Low water solubility,
+          Medium evaporation rate,
+          Mild odor,
+          Non-HAP,
+          Non-SARA
+        ]
+        industries: [
+          Coatings, 
+          Cosmetics and Personal Care, 
+          Graphic Arts, 
+          Pharmaceutical, 
+          Printing Inks, 
+          Solvent
+        ]
+      - title: ISO BUTYL ACETATE
+        image: 'paint.jpeg'
+        id: 3
+        cas: 110-19-0
+        size: 180 Kgs (HDPE)
+        attributes: [
+          Good solvent activity,
+          High electrical resistance,
+          Inert - Nonfood use,
+          Low MIR value,
+          Low surface tension,
+          Low water solubility,
+          Medium evaporation rate,
+          Mild odor,
+          Non-HAP,
+          Non-SARA,
+          Readily biodegradable,
+          Urethane grade
+        ]
+        industries: [
+          Coatings, 
+          Cosmetics and Personal Care, 
+          Pharmaceutical, 
+          Solvent
+        ]
+      - title: ETHYL 3 ETHOXY PROPIONATE (SOLVENT EEP)
+        image: 'agro.jpg'
+        id: 4
+        cas: 763-69-9
+        size: 200 Kgs (MS)
+        attributes: [
+          Excellent solvent activity,
+          High blush resistance,
+          High electrical resistance,
+          Inert - Nonfood use,
+          Low surface tension,
+          Low water solubility,
+          Non-HAP,
+          Non-SARA,
+          Readily biodegradable,
+          Slow evaporation rate,
+          Urethane grade
+        ]
+        industries: [
+          Coatings, 
+          Polymerization, 
+          Solvent, 
+          Optics
+        ]
+      - title: N-BUTYL PROPIONATE
+        image: 'fuel.jpg'
+        id: 5
+        cas: 590-01-2
+        size: 180 Kgs (MS)
+        attributes: [
+          Good solvent activity,
+          High electrical resistance,
+          Low MIR value,
+          Low surface tension,
+          Low water solubility,
+          Mild odor,
+          Non-HAP,
+          Non-SARA,
+          Readily biodegradable,
+          Slow evaporation rate,
+          Urethane grade
+        ]
+        industries: [
+          Coatings, 
+          Cosmetics and Personal Care, 
+          Graphic Arts, 
+          Polymers, 
+          Printing Inks, 
+          Resins
+        ]
 
-    ]
-  - title: N-Butyl Propionate (46)
-    image: 'water.jpeg'
-    id: 6
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [
-    ]
-  - title: N-Pentyl Propionate (47)
-    image: 'ink.jpeg'
-    id: 7
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [
+      - title: N-PENTYL PROPIONATE
+        image: 'water.jpeg'
+        id: 6
+        cas: 624-54-4
+        size: 180 Kgs (MS)
+        attributes: [
+          Non-HAP,
+          Strong solvency for high solids coatings,
+          Proper volatility for high solids coatings and printing inks applications,
+          High electrical resistivity for electrostatically sprayed coatings,
+          Mild odor,
+          Slow evaporation,
+          High boiling point and good chain transfer activity,
+          Possible excellent replacement for oxo-hexyl acetate
+        ]
+        industries: [
+          Coatings, 
+          Polymerization, 
+          Cosmetics and Personal Care, 
+          Solvents, 
+          Printing Inks, 
+          Food Additives, 
+          Fragrance, 
+          Solvent
+        ]
 
-    ]
-  - title: Flexo Solvent Tri 82 (82)
-    image: 'lubricant.jpeg'
-    id: 8
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [
+  - name: Alcohols
+    items: 
+      - title: N-PROPYL ALCOHOL PURE
+        image: 'ink.jpeg'
+        id: 7
+        cas: 71-23-8
+        size: 165 Kgs (MS)
+        attributes: [
+          Complete water miscibility,
+          Excellent reactivity as an intermediate,
+          Inert-Food use with limitations,
+          Inert-Nonfood use,
+          Inherently biodegradable,
+          Medium evaporation rate,
+          Mild odor,
+          Non-HAP,
+          Non-SARA
+        ]
+        industries: [
+          Coatings, 
+          Graphic Arts, 
+          Intermediates, 
+          Printing Inks, 
+          Organic Synthesis, 
+          Solvent
+        ]
 
-    ]
-  - title: Flexo Solvent Tri 73 (73)
-    image: 'textile.jpeg'
-    id: 9
-    cas: 109-60-4
-    size: 180  Kgs (MS)
-    applications: [
-    ]
+      - title: ISO AMYL ALCOHOL PURE
+        image: 'lubricant.jpeg'
+        id: 8
+        cas: 123-51-3
+        size: 170 Kgs (HDPE)
+        attributes: []
+        industries: [
+          Pharmaceutical, 
+          Printing Inks, 
+          Flavouring, 
+          Perfumes, 
+          Suppressant
+        ]
+
+  - name: Flexo
+    items: 
+      - title: FLEXO SOLVENT TRI 82
+        image: 'textile.jpeg'
+        id: 9
+        cas: 
+        size: 170 Kgs (MS)
+        industries: [
+          Graphic Arts, 
+          Printing Inks, 
+          Food Grade Packing
+        ]
+
+      - title: FLEXO SOLVENT TRI 73
+        image: 'textile.jpeg'
+        id: 9
+        cas: 
+        size: 170 Kgs (MS) 
+        attributes: []
+        industries: [
+          Graphic Arts, 
+          Printing Inks, 
+          Food Grade Packing 
+        ]
+
+
+
+        

@@ -10,8 +10,8 @@
         <br/>
         <br/>
         <div class="row text-center">
-            {% for i in site.industries %}
 
+            {% for type in site.types %} {% for i in type.items %}
             <div class="col-centered col-md-5">
                 <a href="#portfolioModal{{ i.id }}" data-toggle="modal">
                     <div class="square" style="background-image: url('/img/{{i.image}}');">
@@ -22,8 +22,7 @@
                     </div>
                 </a>
             </div>
-
-            {% endfor %}
+            {% endfor %} {% endfor %}
         </div>
     </div>
 </section>

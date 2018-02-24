@@ -3,42 +3,35 @@ layout: page
 parmalink: 'pages/products'
 parent: products
 ---
-
 <br/>
+
 <br/>
 <br/>
 <div class="container">
     <br/>
     <br/>
-    <br/>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th class="casno">CAS No.</th>
-                <th>Packing</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for i in site.industries %}
-            <tr>
-                <th>
-                    <a href="/products/{{i.title | replace: " " , " "}}">
-                        {{i.title}}
-                    </a>
-                </th>
-                <th>
-                    <a href="/products/{{i.title | replace: " " , " "}}">
-                        {{i.cas}}
-                    </a>
-                </th>
-                <th>
-                    <a href="/products/{{i.title | replace: " " , " "}}">
-                        {{i.size}}
-                    </a>
-                </th>
-            </tr>
+
+
+    <div>
+        <br/> {% for type in site.types %}
+        <h3 style="color: black;">{{type.name}}</h3>
+        <div class="row">
+            {% for item in type.items %}
+
+            <div class="col col-sm-3">
+                <a style="text-decoration: none" href="/products/{{item.title | replace: " " , ""}}">
+                    <h5>{{item.title}}</h5>
+                    <h6>{{item.cas}}</h6>
+                    <h7>{{item.size}}</h7>
+                </a>
+            </div>
             {% endfor %}
-        </tbody>
-    </table>
+        </div>
+        <br>
+        <br>
+        <br> {% endfor %}
+    </div>
+    <br>
+    <br>
+    <br>
 </div>

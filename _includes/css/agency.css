@@ -843,7 +843,9 @@ blockquote::before{
     width: 8%;
 }
 @media only screen and (max-width: 768px) {
-   
+    .article{
+        font-size: 19px;
+    }
     .col-centered {
         display: block;
         float:none;
@@ -857,6 +859,16 @@ blockquote::before{
         padding: 8px;
         width: 13%;
     }
+
+    .badge {
+        font-size: 13px!important;
+        margin-bottom: 5px;
+        margin-right: 3px;
+        text-align: left!important;
+        white-space: unset!important;
+        background-color: #173b58!important;
+    }
+
     .quote{ 
         margin-top: 10px;
         margin-bottom: 10px;

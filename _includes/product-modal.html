@@ -35,15 +35,26 @@
                     <br>
                     <div style="text-align: left;">
                         <h3>
-                            Industrial Usage:
+                            Industries:
                         </h3>
-                        <br> {% for product in i.usage %}
+                        <br> {% for industry in i.industries %}
                         <span class="badge badge-success">
-                            {{product}}
+                            {{industry}}
                         </span>
                         {% endfor %}
                     </div>
                     <br>
+                    <br>
+                    <div style="text-align: left;">
+                        <h3>
+                            Key Attributes:
+                        </h3>
+                        <br> {% for attribute in i.attributes %}
+                        <span class="badge badge-success">
+                            {{attribute}}
+                        </span>
+                        {% endfor %}
+                    </div>
                     <br>
                     <br>
                     <br>

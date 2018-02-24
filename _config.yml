@@ -172,7 +172,6 @@ types:
           Printing Inks, 
           Resins
         ]
-
       - title: N-PENTYL PROPIONATE
         image: 'water.jpeg'
         id: 6
@@ -198,12 +197,29 @@ types:
           Fragrance, 
           Solvent
         ]
+      - title: ISO AMYL ACETATE
+        image: 'adhesive.jpeg'
+        id: 7
+        cas: 123-92-2
+        size: 180 Kgs (HDPE)
+        attributes: [
+        ]
+        industries: [
+          Coatings, 
+          Cosmetics and Personal Care, 
+          Graphic Arts, 
+          Printing Inks, 
+          Perfumes, 
+          Flavouring, 
+          Solvents,
+          Pharmaceutical		
+        ]
 
   - name: Alcohols
     items: 
       - title: N-PROPYL ALCOHOL PURE
         image: 'ink.jpeg'
-        id: 7
+        id: 8
         cas: 71-23-8
         size: 165 Kgs (MS)
         attributes: [
@@ -228,7 +244,7 @@ types:
 
       - title: ISO AMYL ALCOHOL PURE
         image: 'lubricant.jpeg'
-        id: 8
+        id: 9
         cas: 123-51-3
         size: 170 Kgs (HDPE)
         attributes: []
@@ -244,7 +260,7 @@ types:
     items: 
       - title: FLEXO SOLVENT TRI 82
         image: 'textile.jpeg'
-        id: 9
+        id: 10
         cas: 
         size: 170 Kgs (MS)
         industries: [
@@ -255,7 +271,7 @@ types:
 
       - title: FLEXO SOLVENT TRI 73
         image: 'textile.jpeg'
-        id: 9
+        id: 11
         cas: 
         size: 170 Kgs (MS) 
         attributes: []

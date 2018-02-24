@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <br>
-                    <br>
+                    <br> {% if i.industries.size > 0 %}
                     <div style="text-align: left;">
                         <h3>
                             Industries:
@@ -43,8 +43,9 @@
                         </span>
                         {% endfor %}
                     </div>
+                    {% endif%}
                     <br>
-                    <br>
+                    <br> {% if i.attributes.size > 0 %}
                     <div style="text-align: left;">
                         <h3>
                             Key Attributes:
@@ -55,13 +56,14 @@
                         </span>
                         {% endfor %}
                     </div>
+                    {% endif%}
                     <br>
                     <br>
                     <br>
                     <a style="padding: 4px;" href="mailto:{{site.enquiryemail}}?Subject={{include.product | upcase}}" target="_top">
                         <div class="btn btn-primary">Mail us</div>
                     </a>
-                    <a href="/products/{{i.title | replace: " " , ""}}">
+                    <a href="/products/{{i.title | replace: " " , " "}}">
                         <div class="btn btn-primary">Know more</div>
                     </a>
                 </div>

@@ -890,6 +890,11 @@ blockquote::before{
     .company-name {
         font-size: 29px;
      }
+
+     footer span.copyright {
+       font-size: 10px;
+    }
+    
 }
 
 .blacktext {

@@ -4,8 +4,8 @@ parmalink: 'products/N-PROPYLALCOHOLPURE'
 parent: products
 product: N-PROPYL ALCOHOL PURE 
 image: adhesive.jpeg
-cas: 109-60-4
-package: 180  Kgs (MS)
+cas: 71-23-8
+size: 165 Kgs (MS)
 tds: TDS_N-PROPYLALCOHOLPURE
 specification: SPEC_N-PROPYLALCOHOLPURE
 attributes: [

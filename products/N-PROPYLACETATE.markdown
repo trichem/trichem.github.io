@@ -5,7 +5,7 @@ parent: products
 product: N-PROPYL ACETATE 
 image: adhesive.jpeg
 cas: 109-60-4
-package: 180  Kgs (MS)
+size: 180  Kgs (MS)
 tds: TDS_N-PROPYLACETATE
 specification: SPEC_N-PROPYLACETATE
 attributes: [

@@ -9,10 +9,10 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-title: Trichem Pvt. Ltd.
+title: Trichem Laboratories (Bombay) Pvt. Ltd.
 logo: /img/logo.png
-email: enquiry@trichem.com
-enquiryemail: enquiry@trichem.com
+email: enquiry@trichem.in
+enquiryemail: enquiry@trichem.in
 links:
   - title: About Us
     id: aboutus

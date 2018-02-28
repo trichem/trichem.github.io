@@ -6,6 +6,8 @@ product: N-PROPYL ACETATE
 image: adhesive.jpeg
 cas: 109-60-4
 package: 180  Kgs (MS)
+tds: TDS_N-PROPYLACETATE
+specification: SPEC_N-PROPYLACETATE
 attributes: [
     Good solvent activity,
     High electrical resistance,
@@ -19,13 +21,7 @@ attributes: [
     Non-SARA,
     Urethane grade,
 ]
-industries: [
-    Coatings, 
-    Cosmetics and Personal Care, 
-    Graphic Arts, 
-    Pharmaceutical, 
-    Printing Inks    
-]
+
 usage: [
     Coatings - Automotive OEM,
     Coatings - Automotive Refinish,

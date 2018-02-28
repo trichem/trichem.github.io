@@ -21,105 +21,128 @@
         <br>
         <br>
         <br>
-        <div class="row">
-            <div class="col-lg-6">
-                <span>
-                    <h5>Cas no </h5>
-                    <h5 style="color:black">{{page.cas}}</h5>
-                </span>
+        <div class="container">
+            <div class="row">
+                {% if page.cas %} {% if page.size %}
+                <div class="col-sm-6">
+                    {% else %}
+                    <div class="col-sm-12">
+                        {% endif %}
+                        <span>
+                            <h5>Cas no </h5>
+                            <h5 style="color:black">{{page.cas}}</h5>
+                        </span>
+
+                    </div>
+                    {% endif %} {% if page.size %} {% if page.cas %}
+                    <div class="col-sm-6">
+                        {% else %}
+                        <div class="col-sm-12">
+                            {% endif %}
+                            <span>
+                                <h5>Packing Size </h5>
+                                <h5 style="color:black">{{page.size}}</h5>
+                            </span>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="article">
+                    {% if page.description %}
+                    <h3>description</h3>
+                    <br/> {{page.description}} {% endif %}
+                </div>
+                <br>
+                <br>
+                <center>
+                    <span>
+                        {% if page.tds %}
+                        <a target="_blank" href="/files/{{page.tds}}.pdf">
+                            <div style="margin: 5px;" class="btn btn-success">
+                                Download TDS
+                            </div>
+                        </a>
+                        {% endif %} {% if page.specification %}
+                        <a target="_blank" href="/files/{{page.specification}}.pdf">
+                            <div class="btn btn-success">
+                                Download Specifications
+                            </div>
+                        </a>
+                        {% endif %}
+                    </span>
+                </center>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-12">
+                        {% if page.attributes.size > 0 %}
+                        <h3>
+                            Key attributes:
+                        </h3>
+                        <br> {% for product in page.attributes %}
+                        <span class="badge badge-success">
+                            {{product}}
+                        </span>
+                        {% endfor %} {% endif %}
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    {% if page.usage.size > 0 %}
+                    <div class="col-lg-12">
+                        <h3>
+                            Industrial Usage:
+                        </h3>
+                        <br> {% for product in page.usage %}
+                        <span class="badge badge-success">
+                            {{product}}
+                        </span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
             </div>
-            <div class="col-lg-6">
-                <span>
-                    <h5>Packing Size </h5>
-                    <h5 style="color:black">{{page.package}}</h5>
+            <br/>
+            <br>
+            <br>
+            <center>
+                <div style="font-size: 200%; text-align: center; color: black;">
+                    Request for Quote
+                </div>
+                <div style="font-size: 160%; text-align: center; color: black;">
+                    To request for quote simply fill out the form or call us at
+                    <span style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">022-66312644/45/46/47</span>
+                </div>
+                <br>
+                <br/> {{content}} {% include enquiryform.html product = page.product%}
+
+            </center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b style="color:#f09797; font-size: 15px;">Disclaimer</b>
+                <br>
+                <span style="font-size: 12.5px;">
+                    The information above is believed to be accurate and represents the best information currently available to us. However,
+                    we make no warranty of merchantability or any other warranty, express or implied, with respect to such
+                    information, and we assume no liability resulting from its use. Users should make their own investigations
+                    to determine the suitability of the information for their particular purposes. In no event shall Trichem
+                    Laboratories (Bombay) Pvt. Ltd. be liable for any claims, losses, or damages of any third party or for
+                    lost profits or any special, indirect, incidental, consequential or exemplary damages, howsoever arising,
+                    even if Trichem Laboratories (Bombay) Pvt. Ltd. has been advised of the possibility of such damages.
                 </span>
+                <br>
+                <br>
             </div>
-        </div>
-
-        <div class="article">
-            <h3>description</h3>
-            <br/> {{page.description}}
-        </div>
-
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-6">
-                <h3>
-                    Key attributes:
-                </h3>
-                <br> {% for product in page.attributes %}
-                <span class="badge badge-success">
-                    {{product}}
-                </span>
-                {% endfor %}
-
-            </div>
-            <div class="col-lg-6">
-                <h3>
-                    Industries:
-                </h3>
-                <br> {% for industry in page.industries %}
-                <span class="badge badge-success">
-                    {{industry}}
-                </span>
-                {% endfor %}
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>
-                    Industrial Usage:
-                </h3>
-                <br> {% for product in page.usage %}
-                <span class="badge badge-success">
-                    {{product}}
-                </span>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-
-    <br/>
-    <br>
-    <br>
-    <center>
-        <div style="font-size: 200%; text-align: center; color: black;">
-            Request for Quote
-        </div>
-        <div style="font-size: 160%; text-align: center; color: black;">
-            To request for quote simply fill out the form or call us at
-            <span style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">022-66312644/45/46/47</span>
-        </div>
-        <br>
-        <br/> {{content}} {% include enquiryform.html product = page.product%}
-
-    </center>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div class="container">
-        <b style="color:#f09797; font-size: 15px;">Disclaimer</b>
-        <br>
-        <span style="font-size: 12.5px;">
-            The information above is believed to be accurate and represents the best information currently available to us. However,
-            we make no warranty of merchantability or any other warranty, express or implied, with respect to such information,
-            and we assume no liability resulting from its use. Users should make their own investigations to determine the
-            suitability of the information for their particular purposes. In no event shall Trichem Laboratories (Bombay)
-            Pvt. Ltd. be liable for any claims, losses, or damages of any third party or for lost profits or any special,
-            indirect, incidental, consequential or exemplary damages, howsoever arising, even if Trichem Laboratories (Bombay)
-            Pvt. Ltd. has been advised of the possibility of such damages.
-        </span>
-        <br>
-        <br>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br> {% include footer.html %} {% include js.html %}
+            <br>
+            <br>
+            <br>
+            <br> {% include footer.html %} {% include js.html %}
 </body>
 
 </html>

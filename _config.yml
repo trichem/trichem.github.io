@@ -76,7 +76,7 @@ types:
         image: 'adhesive.jpeg'
         id: 2
         cas: 108-21-4
-        size: 180 Kgs (HDPE)
+        size: 180 Kgs (HDPE/MS)
         attributes: [
           Good solvent activity,
           High electrical resistance,
@@ -101,7 +101,7 @@ types:
         image: 'paint.jpeg'
         id: 3
         cas: 110-19-0
-        size: 180 Kgs (HDPE)
+        size: 180 Kgs (HDPE/MS)
         attributes: [
           Good solvent activity,
           High electrical resistance,
@@ -201,7 +201,7 @@ types:
         image: 'adhesive.jpeg'
         id: 7
         cas: 123-92-2
-        size: 180 Kgs (HDPE)
+        size: 180 Kgs (HDPE/MS)
         attributes: [
         ]
         industries: [
@@ -246,7 +246,7 @@ types:
         image: 'lubricant.jpeg'
         id: 9
         cas: 123-51-3
-        size: 170 Kgs (HDPE)
+        size: 170 Kgs (HDPE/MS)
         attributes: []
         industries: [
           Pharmaceutical, 

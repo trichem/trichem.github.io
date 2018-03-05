@@ -5,7 +5,7 @@ parent: products
 product: ISO PROPYL ACETATE
 image: adhesive.jpeg
 cas: 108-21-4
-size: 180 Kgs (HDPE)
+size: 180 Kgs (HDPE/MS)
 tds: TDS_ISOPROPYLACETATE
 specification: SPEC_ISOPROPYLACETATE
 attributes: [

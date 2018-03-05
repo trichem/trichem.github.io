@@ -5,7 +5,7 @@ parent: products
 product: ISO AMYL ALCOHOL PURE 
 image: adhesive.jpeg
 cas: 123-51-3
-size: 170 Kgs (HDPE)
+size: 170 Kgs (HDPE/MS)
 tds: TDS_ISOAMYLALCOHOLPURE
 specification: SPEC_ISOAMYLALCOHOLPURE
 attributes: [

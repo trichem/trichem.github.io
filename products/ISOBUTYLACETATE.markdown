@@ -5,7 +5,7 @@ parent: products
 product: ISO BUTYL ACETATE 
 image: adhesive.jpeg
 cas: 110-19-0
-size: 180 Kgs (HDPE)
+size: 180 Kgs (HDPE/MS)
 tds: TDS_ISOBUTYLACETATE
 specification: SPEC_ISOBUTYLACETATE
 attributes: [

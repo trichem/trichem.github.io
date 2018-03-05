@@ -1,11 +1,11 @@
 ---
 layout: product
-parmalink: 'products/ISOAMYLACETAT'
+parmalink: 'products/ISOAMYLACETATE'
 parent: products
-product: ISO AMYL ACETAT 
+product: ISO AMYL ACETATE 
 image: adhesive.jpeg
 cas: 123-92-2
-size: 180 Kgs (HDPE)
+size: 180 Kgs (HDPE/MS)
 tds: TDS_ISOAMYLACETATE
 specification: SPEC_ISOAMYLACETATE
 attributes: []

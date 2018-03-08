@@ -301,7 +301,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-color: #15a589;
-    /* background-image: url('{{ site.baseurl }}/img/header-bg.jpg'); */
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -748,11 +748,10 @@ footer {
  }
 
  .quote {
-     padding: 30px;
+     background-color: #ffffff9c;
      margin-top: 200px;
      margin-bottom: 200px;
      text-align: center;
-     color: white;
      border: 0;
      font-size: 2.5em;
  }

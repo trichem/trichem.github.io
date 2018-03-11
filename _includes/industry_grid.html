@@ -14,7 +14,8 @@
             {% for type in site.types %} {% for i in type.items %}
             <div class="col-centered col-md-5">
                 <a href="#portfolioModal{{ i.id }}" data-toggle="modal">
-                    <div class="square" style="background-image: url('/img/{{i.image}}');">
+                    <div class="square" style="background-image: url('/img/{{i.image}}'); background-position: center;
+                    background-size: cover;">
                         <div class="square overlay"></div>
                         <h3>
                             {{i.title}}

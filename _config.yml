@@ -48,7 +48,7 @@ types:
   - name: esters
     items:
       - title: N-PROPYL ACETATE
-        image: 'pharma.jpeg'
+        image: 'PROPYL.jpeg'
         id: 1
         cas: 109-60-4
         size: 180  Kgs (MS)
@@ -73,7 +73,7 @@ types:
             Printing Inks
         ]
       - title: ISO PROPYL ACETATE
-        image: 'adhesive.jpeg'
+        image: 'PROPYL.jpeg'
         id: 2
         cas: 108-21-4
         size: 180 Kgs (HDPE/MS)
@@ -123,7 +123,7 @@ types:
           Solvent
         ]
       - title: ETHYL 3 ETHOXY PROPIONATE (SOLVENT EEP)
-        image: 'agro.jpg'
+        image: 'EEP.jpeg'
         id: 4
         cas: 763-69-9
         size: 200 Kgs (MS)
@@ -147,7 +147,7 @@ types:
           Optics
         ]
       - title: N-BUTYL PROPIONATE
-        image: 'fuel.jpg'
+        image: 'EEP.jpeg'
         id: 5
         cas: 590-01-2
         size: 180 Kgs (MS)
@@ -173,7 +173,7 @@ types:
           Resins
         ]
       - title: N-PENTYL PROPIONATE
-        image: 'water.jpeg'
+        image: 'EEP.jpeg'
         id: 6
         cas: 624-54-4
         size: 180 Kgs (MS)
@@ -198,7 +198,7 @@ types:
           Solvent
         ]
       - title: ISO AMYL ACETATE
-        image: 'adhesive.jpeg'
+        image: 'ISOAMYLACETATE.jpeg'
         id: 7
         cas: 123-92-2
         size: 180 Kgs (HDPE/MS)
@@ -243,7 +243,7 @@ types:
         ]
 
       - title: ISO AMYL ALCOHOL PURE
-        image: 'lubricant.jpeg'
+        image: 'ISO.jpeg'
         id: 9
         cas: 123-51-3
         size: 170 Kgs (HDPE/MS)
@@ -259,7 +259,7 @@ types:
   - name: Flexo
     items: 
       - title: FLEXO SOLVENT TRI 82
-        image: 'textile.jpeg'
+        image: 'ink.jpeg'
         id: 10
         cas: 
         size: 170 Kgs (MS)
@@ -270,7 +270,7 @@ types:
         ]
 
       - title: FLEXO SOLVENT TRI 73
-        image: 'textile.jpeg'
+        image: 'ink.jpeg'
         id: 11
         cas: 
         size: 170 Kgs (MS) 

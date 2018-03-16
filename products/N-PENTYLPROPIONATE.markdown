@@ -34,5 +34,5 @@ usage: [
     Ink, Toner, and Colorant Products ,
     Paints and Coatings
 ]
-description: 
+description: N-Pentyl Propionate is a non-HAP, slow evaporating solvent. Its linear structure contributes to effective viscosity reduction and improves solvent diffusion from coating films. It is used in Automotive refinish coatings as a solvent. It also finds some use in Personal care and Cosmetics, Fragrance Applications and Printing inks.
 ---

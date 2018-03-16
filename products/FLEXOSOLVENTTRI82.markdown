@@ -11,8 +11,8 @@ specification: SPEC_FLEXOSOLVENTTRI82
 attributes: [
 ]
 usage: [
-    Flexo Solvent in Flexography Machines, 
+    Flexo Solvent, 
     Food Grade Packing
 ]
-description: 
+description: It is used as a flexo solvent in flexography machines for food grade packing.
 ---

@@ -14,5 +14,5 @@ usage: [
    Flexo Solvent,
    Food Grade Packing
 ]
-description: 
+description: It is used as a flexo solvent in flexography machines for food grade packing.
 ---

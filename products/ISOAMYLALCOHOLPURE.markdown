@@ -11,8 +11,9 @@ specification: SPEC_ISOAMYLALCOHOLPURE
 attributes: [
 ]
 usage: [
-    Isoamyl alcohol is used as a solvent for the preparation of synthetic fruit flavours,
-    such as apricot banana cheery greengage malt orange plum and whiskey flavours,
+    
+]
+description: Isoamyl alcohol is used as a solvent for the preparation of synthetic fruit flavours, such as apricot banana cheery       greengage malt orange plum and whiskey flavours,
     It is a raw material in the production of synthetic banana oil, 
     It is one of the components of the aroma of the black truffle,
     It is also used for estimation of fat in milk and milk products,
@@ -23,6 +24,4 @@ usage: [
     In pharmaceuticals it is the initial raw material for a number of drug preparations such as Barbamil Validol Corvalol and amyl nitrite,
     It is a diluent in some printing inks lacquers and gums,
     A derivative of Isoamyl alcohol the p-methoxycinnamate is used as a UV absorber in some cosmetic formulations and the product itself finds application as a cosmetic flavouring and in perfume.
-]
-description: 
 ---

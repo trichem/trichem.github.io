@@ -10,7 +10,9 @@ tds: TDS_ISOAMYLACETATE
 specification: SPEC_ISOAMYLACETATE
 attributes: []
 usage: [
-    Isoamyl acetate is used for the preparation of many synthetic flavours from apple to piña colada and even coffee,
+    
+]
+description: Isoamyl acetate is used for the preparation of many synthetic flavours from apple to piña colada and even coffee,
     Flavour production is the main area of application for Isoamyl acetate,
     Over 40 flavours involve the use of Isoamyl acetate,
     It plays an important part in all beers and is part of the overall flavour profile,
@@ -21,6 +23,4 @@ usage: [
     As Isoamyl acetate has a strong pleasant odour and low toxicity it can be used to test effectiveness of gas seals such as in respirators,
     Isoamyl acetate is also used in cosmetics primarily in nail varnish application and removal because of its good solvency,
     It is also used in deodorants and non-powered air fresheners.
-]
-description: 
 ---

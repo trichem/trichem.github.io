@@ -31,8 +31,8 @@ usage: [
     Coatings - Industrial Wood,
     Coatings - Misc. (Thinners and Paint Removers),
     Coatings - Transportation,
-    Letdown Solvent - High-Solids Resins,
-    Polymerization Solvent - High-Solids Acrylic Resins 
+    Letdown Solvent - High Solids Resins,
+    Polymerization Solvent - High Solids Acrylic Resins 
 ]
 description: EEP (Ethyl 3-Ethoxypropionate) is a slow evaporating ether-ester solvent with excellent activity for a wide range of coating polymers. Its linear structure and propionyl group in the center of the molecule give this material a combination of desirable properties not found in other solvents. These include a slow evaporation rate, good resistance to solvent popping in baking applications, a moderate odor, low surface tension and high electrical resistance. In addition, it yields low polymer solution viscosities when compared to solvents with similar evaporation rates, provides excellent solvent release from coating films, and gives exceptional flow and leveling with a wide range of coatings. It is supplied as a urethane grade solvent.
 

@@ -20,8 +20,8 @@ links:
     id: team  
   - title: Products
     id: products
-  - title: Services
-    id: services
+  - title: CSR
+    id: csr
   - title: Contact Us
     id: contactus
 
@@ -43,6 +43,39 @@ people:
   position: Director,
 
 #PRODUCTS POPUP
+
+services:
+  - title: Participants explaining their posters during the national safety week 2017.
+    imgs: [
+      1.jpg
+    ]
+  - title: Participants during the elocution competition.
+    imgs: [
+      2.jpg
+    ]
+  - title: Prizes to be given away during the National Safety Week 2017.
+    imgs: [ 
+      3.png
+    ]
+  - title: World  Environment Day 2016/17
+    imgs: [ 
+      5.jpg, 
+      6.jpg, 
+      4.jpg, 
+    ]
+  - title: Hand Printing activity after taking the World Environment Day pledge.
+    imgs: [ 
+      7.jpg
+    ]
+  - title: Planting of trees for World Environment Day.
+    imgs: [ 
+      8.jpg
+    ]
+  - title: Prizes to be distributed for the National Safety Week Competitions 2018.
+    imgs: [
+      9.jpg
+    ]
+
 
 types:
   - name: esters
@@ -281,6 +314,8 @@ types:
           Food Grade Packing 
         ]
 
+
+  
 
 
         

@@ -778,7 +778,7 @@ blockquote::before{
 .team {
     background-image:url('/img/team.jpeg'); 
     background-position: center;
-    height: 380px; 
+    height: 490px; 
     background-size: cover; 
     background-repeat: no-repeat;
     margin-top: -33px;
@@ -788,14 +788,14 @@ blockquote::before{
 .vision {
     background-image:url('/img/vision.jpeg'); 
     background-position: -10% 15%;
-    height: 380px; 
+    height: 490px; 
     background-size: cover; 
     background-repeat: no-repeat;
     margin-top: -33px;
 }
 
  .aboutintro {
-     height: 380px; 
+     height: 490px; 
      background-size: cover; 
      background-position: center; 
      background-image: url('/img/agro.jpg'); 
@@ -817,7 +817,7 @@ blockquote::before{
     padding-top: 200px;
  }
 .pageheading{
-    padding-top: 200px;
+    padding-top: 275px;
     color: white;
     text-align: center;
 }
@@ -830,10 +830,10 @@ blockquote::before{
     background: rgba(0,0,0,0.3); 
     position: absolute; 
     width: 100%; 
-    height: 380px;
+    height: 490px;
 }
 
-.square.overlay {
+.square.a {
     width: 94%;
     height: 260px;
 }
@@ -955,3 +955,13 @@ blockquote::before{
     color: white;
     background-color: #{{site.data.template.color.primary}}
 }
+
+.services {
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.col-centered{
+    /* margin: auto; */
+}
+    

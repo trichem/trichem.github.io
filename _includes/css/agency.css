@@ -267,7 +267,7 @@ a.navbar-brand.navbar-toggle{
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: #ccccccbd;
         -webkit-transition: padding .3s;

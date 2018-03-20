@@ -832,7 +832,12 @@ blockquote::before{
     width: 100%; 
     height: 490px;
 }
-
+.soverlay {
+    background: rgba(0,0,0,0.3); 
+    position: absolute; 
+    width: 94%; 
+    height: 260px;
+}
 .square.a {
     width: 94%;
     height: 260px;

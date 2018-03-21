@@ -47,15 +47,15 @@ people:
 services:
   - title: WORLD ENVIRONMENT DAY 2016
     imgs: 
-      - tag: Banner displayed at the factory.
+      - tag: "Banner displayed at the factory."
         src: 4.jpg
   - title: NATIONAL SAFETY WEEK 2017
-    imgs:
-      - tag: Poster presentation by participants.
+    imgs: 
+      - tag: "Poster presentation by participants."
         src: 1.jpg
-      - tag: Participants during the elocution competition.
+      - tag: "Participants during the elocution competition."
         src: 2.jpg
-      - tag: Prizes for the competitions held.
+      - tag: "Prizes for the competitions held."
         src: 3.jpg
   - title: WORLD ENVIRONMENT DAY 2017
     imgs: 

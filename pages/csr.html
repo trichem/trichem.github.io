@@ -9,9 +9,12 @@ parent: csr
     <div class="row">
         <h3>{{service.title}}</h3>
         <hr> {% for img in service.imgs %}
-        <div class="col-md-6">
+        <div class="col-md-8 col-centered">
             <div class="thumbnail">
-                <img src="/img/services/{{img}}" alt="Lights" style="width:100%; height: 100%;">
+                <img src="/img/services/{{img.src}}" alt="Lights" style="width:100%; height: 100%;">
+                <div class="caption">
+                    <p>{{img.tag}}</p>
+                  </div>
             </div>
         </div>
         {% endfor %}

@@ -73,19 +73,7 @@ services:
       - tag: "Prizes to be distributed for the National Safety Week Competitions."
         src: 10.jpg
       - tag: "Winning slogans displayed on the board."
-        src: 11.jpg
-  - title: 
-    imgs: 
-      - tag: 
-        src: 
-  - title: 
-    imgs: 
-      - tag:
-        src:  
-  - title: 
-    imgs: 
-      - tag:
-        src: 
+        src: 11.jpg 
 
 types:
   - name: esters

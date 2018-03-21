@@ -59,17 +59,23 @@
                 <br>
                 <br>
                 <center>
-                    <span>
+                    <div class="row">
                         {% if page.tds %}
-                        <a class="btn btn-success" target="_blank" href="/files/{{page.tds}}.pdf">
-                            Download Technical Data Sheet (TDS)
-                        </a>
+                        <div class="col-md-4 col-centered">
+                            <a class="btn btn-success" target="_blank" href="/files/{{page.tds}}.pdf">
+                                Download Technical Data Sheet (TDS)
+                            </a>
+
+                        </div>
                         {% endif %} {% if page.specification %}
-                        <a class="btn btn-success" target="_blank" href="/files/{{page.specification}}.pdf">
-                            Download Sales Specifications
-                        </a>
+                        <div class="col-md-4 col-centered">
+                            <a class="btn btn-success" target="_blank" href="/files/{{page.specification}}.pdf">
+                                Download Sales Specifications
+                            </a>
+                        </div>
                         {% endif %}
-                    </span>
+                    </div>
+
                 </center>
                 <br>
                 <br>

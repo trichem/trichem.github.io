@@ -61,7 +61,6 @@ services:
     imgs: 
       - tag: "Banners displayed at the factory"
         src: 5.jpg
-        src: 6.jpg
       - tag: "Hand Printing activity after taking the World Environment Day pledge."
         src: 7.jpg
       - tag: "Tree plantation for World Environment Day."

@@ -53,18 +53,18 @@ services:
     imgs:
       - tag: Poster presentation by participants.
         src: 1.jpg
-        - tag: Participants during the elocution competition.
+      - tag: Participants during the elocution competition.
         src: 2.jpg
-        - tag: Prizes for the competitions held.
+      - tag: Prizes for the competitions held.
         src: 3.jpg
   - title: WORLD ENVIRONMENT DAY 2017
     imgs: 
       - tag: "Banners displayed at the factory"
         src: 5.png
         src: 6.png
-        - tag: "Hand Printing activity after taking the World Environment Day pledge."
+      - tag: "Hand Printing activity after taking the World Environment Day pledge."
         src: 7.png
-        - tag: "Tree plantation for World Environment Day."
+      - tag: "Tree plantation for World Environment Day."
         src: 8.png
   - title: NATIONAL SAFETY WEEK 2018
     imgs: 

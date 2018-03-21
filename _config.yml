@@ -60,12 +60,12 @@ services:
   - title: WORLD ENVIRONMENT DAY 2017
     imgs: 
       - tag: "Banners displayed at the factory"
-        src: 5.png
-        src: 6.png
+        src: 5.jpg
+        src: 6.jpg
       - tag: "Hand Printing activity after taking the World Environment Day pledge."
-        src: 7.png
+        src: 7.jpg
       - tag: "Tree plantation for World Environment Day."
-        src: 8.png
+        src: 8.jpg
   - title: NATIONAL SAFETY WEEK 2018
     imgs: 
       - tag: "Poster competition"

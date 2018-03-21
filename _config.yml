@@ -59,8 +59,10 @@ services:
         src: 3.jpg
   - title: WORLD ENVIRONMENT DAY 2017
     imgs: 
-      - tag: "Banners displayed at the factory"
+      - tag: ""
         src: 5.jpg
+      - tag: "Banners displayed at the factory"
+        src: 6.jpg
       - tag: "Hand Printing activity after taking the World Environment Day pledge."
         src: 7.jpg
       - tag: "Tree plantation for World Environment Day."

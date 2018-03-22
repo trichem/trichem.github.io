@@ -313,8 +313,8 @@ header {
 
 
 header .intro-text {
-    padding-top: 160px;
-    padding-bottom: 90px;
+    padding-top: 90px;
+    padding-bottom: 30px;
 }
 
 header .intro-text .intro-lead-in {
@@ -891,7 +891,7 @@ blockquote::before{
     }
 
     .company-name {
-        font-size: 29px;
+        font-size: 25px;
      }
 
      footer span.copyright {

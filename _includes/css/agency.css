@@ -970,3 +970,12 @@ blockquote::before{
     /* margin: auto; */
 }
     
+
+.caption {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.thumbnail {
+    border: 2px solid #ecf0f1!important;
+}

@@ -557,7 +557,7 @@ section#contact .text-danger {
 
 footer {
     background-color:#f5f5f5;
-    height: 140px;
+    /* height: 140px; */
     /* padding: 25px 0; */
     text-align: center;
 }

@@ -45,38 +45,36 @@ people:
 #PRODUCTS POPUP
 
 services:
-  - title: Participants explaining their posters during the national safety week 2017.
+  - title: WORLD ENVIRONMENT DAY 2016
     imgs: 
-      - tag: ""
-        src: 1.jpg
-  - title: Participants during the elocution competition.
-    imgs:
-      - tag: ""
-        src: 2.jpg
-  - title: Prizes to be given away during the National Safety Week 2017.
-    imgs: 
-      - tag: ""
-        src: 3.png
-  - title: World  Environment Day 2016/17
-    imgs: 
-      - tag: 
-        src: 5.jpg
-      - tag: 
-        src: 6.jpg
-      - tag:
+      - tag: "Banner displayed at the factory."
         src: 4.jpg
-  - title: Hand Printing activity after taking the World Environment Day pledge.
+  - title: NATIONAL SAFETY WEEK 2017
     imgs: 
-      - tag: 
+      - tag: "Poster presentation by participants."
+        src: 1.jpg
+      - tag: "Participants during the elocution competition."
+        src: 2.jpg
+      - tag: "Prizes for the competitions held."
+        src: 3.jpg
+  - title: WORLD ENVIRONMENT DAY 2017
+    imgs: 
+      - tag: ""
+        src: 5.jpg
+      - tag: "Banners displayed at the factory"
+        src: 6.jpg
+      - tag: "Hand Printing activity after taking the World Environment Day pledge."
         src: 7.jpg
-  - title: Planting of trees for World Environment Day.
+      - tag: "Tree plantation for World Environment Day."
+        src: 8.jpg
+  - title: NATIONAL SAFETY WEEK 2018
     imgs: 
-      - tag:
-        src: 8.jpg 
-  - title: Prizes to be distributed for the National Safety Week Competitions 2018.
-    imgs: 
-      - tag:
-        src: 9.jpg 
+      - tag: "Poster competition"
+        src: 9.jpg
+      - tag: "Prizes to be distributed for the National Safety Week Competitions."
+        src: 10.jpg
+      - tag: "Winning slogans displayed on the board."
+        src: 11.jpg 
 
 types:
   - name: esters

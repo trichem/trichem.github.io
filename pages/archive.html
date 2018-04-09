@@ -1,20 +1,17 @@
 ---
 layout: page
-parmalink: 'pages/csr'
+parmalink: 'pages/archive'
 parent: csr
 ---
 
 <div class="services">
-    {% for service in site.services %}
+    {% for service in site.archives %}
     <div class="row">
         <h3>{{service.title}}</h3>
         <hr> {% for img in service.imgs %}
-        <div class="col-md-8 col-centered">
+        <div class="col-md-2">
             <div class="thumbnail">
-                <img src="/img/services/{{img.src}}" alt="Lights" style="width:100%; height: 100%;">
-                <div class="caption">
-                    {{img.tag}}
-                  </div>
+                <img src="/img/services/{{img}}" alt="Lights">
             </div>
         </div>
         {% endfor %}

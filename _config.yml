@@ -313,6 +313,12 @@ types:
           Food Grade Packing 
         ]
 
+archives:
+  - title: "title"
+    imgs: [
+      "11.jpg"
+    ]       
+
 
 description: "DESCRIBE YOUR PRODUCT"
 keywords: "keywords, comma, separated"

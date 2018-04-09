@@ -26,21 +26,21 @@ links:
     id: contactus
 
 people:
-- name: Mr. Chandrakant J. Shah
-  pic: cshah
-  position: Director
+  - name: Mr. Chandrakant J. Shah
+    pic: cshah
+    position: Director
 
-- name: Mr. Harshad J. Shah
-  pic: hshah
-  position: Director
+  - name: Mr. Harshad J. Shah
+    pic: hshah
+    position: Director
 
-- name: Mr. Nilesh C. Shah
-  pic: nshah
-  position: Director
+  - name: Mr. Nilesh C. Shah
+    pic: nshah
+    position: Director
 
-- name: Mr. Ketan C. Shah
-  pic: kshah
-  position: Director,
+  - name: Mr. Ketan C. Shah
+    pic: kshah
+    position: Director,
 
 #PRODUCTS POPUP
 
@@ -313,6 +313,9 @@ types:
           Food Grade Packing 
         ]
 
+
+description: "DESCRIBE YOUR PRODUCT"
+keywords: "keywords, comma, separated"
 
   
 

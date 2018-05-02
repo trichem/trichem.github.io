@@ -313,11 +313,11 @@ types:
           Food Grade Packing 
         ]
 
-archives:
-  - title: ""
-    imgs: [
-      ""
-    ]       
+#archives:
+#  - title: ""
+#    imgs: [
+#      ""
+#    ]       
 
 
 description: "DESCRIBE YOUR PRODUCT"

@@ -313,10 +313,10 @@ types:
           Food Grade Packing 
         ]
 
-archives:
-  - title: "title"
-    imgs: [
-      "11.jpg"
+#archives:
+#  - title: "title"
+#    imgs: [
+#      "11.jpg"
     ]       
 
 

@@ -45,10 +45,6 @@ people:
 #PRODUCTS POPUP
 
 services:
-  - title: WORLD ENVIRONMENT DAY 2016
-    imgs: 
-      - tag: "Banner displayed at the factory."
-        src: 4.jpg
   - title: NATIONAL SAFETY WEEK 2017
     imgs: 
       - tag: "Poster presentation by participants."
@@ -327,10 +323,10 @@ types:
         ]
 
 archives:
-  - title: ""
-    imgs: [
-      ""
-    ]       
+  - title: WORLD ENVIRONMENT DAY 2016
+    imgs: 
+      - tag: "Banner displayed at the factory."
+        src: 4.jpg
 
 
 description: "DESCRIBE YOUR PRODUCT"

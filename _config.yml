@@ -75,7 +75,7 @@ services:
         src: 10.jpg
       - tag: "Winning slogans displayed on the board."
         src: 11.jpg 
-  title: WORLD ENVIRONMENT DAY 2018
+  - title: WORLD ENVIRONMENT DAY 2018
     imgs: 
       - tag: "Poster competition."
         src: 12.jpg

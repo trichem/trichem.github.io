@@ -75,6 +75,19 @@ services:
         src: 10.jpg
       - tag: "Winning slogans displayed on the board."
         src: 11.jpg 
+  title: WORLD ENVIRONMENT DAY 2018
+    imgs: 
+      - tag: "Poster competition."
+        src: 12.jpg
+      - tag: "Banners displayed at the factory."
+        src: 13.jpg  
+      - tag: "Tree Plantation."
+        src: 15.jpg
+      - tag: "Cloth Bags given to all."
+        src: 14.jpg
+      - tag: "Winners receiving their prizes."
+        src: 16.jpg   
+
 
 types:
   - name: esters

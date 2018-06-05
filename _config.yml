@@ -84,7 +84,13 @@ services:
       - tag: "Winners receiving their prizes."
         src: WED185.jpg  
 
+archives:
+  - title: WORLD ENVIRONMENT DAY 2016
+    imgs: 
+      - tag: "Banner displayed at the factory."
+        src: 4.jpg
 
+        
 types:
   - name: esters
     items:
@@ -321,12 +327,6 @@ types:
           Printing Inks, 
           Food Grade Packing 
         ]
-
-archives:
-  - title: WORLD ENVIRONMENT DAY 2016
-    imgs: 
-      - tag: "Banner displayed at the factory."
-        src: 4.jpg
 
 
 description: "DESCRIBE YOUR PRODUCT"

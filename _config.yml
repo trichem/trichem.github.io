@@ -40,7 +40,11 @@ people:
 
   - name: Mr. Ketan C. Shah
     pic: kshah
-    position: Director,
+    position: Director
+    
+  - name: Mr. Dheer N. Shah
+    pic: dshah
+    position: Technical Director,
 
 #PRODUCTS POPUP
 

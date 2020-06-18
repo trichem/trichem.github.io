@@ -49,24 +49,28 @@ people:
 #PRODUCTS POPUP
 
 services:
-  - title: NATIONAL SAFETY WEEK 2017
+  - title: NATIONAL SAFETY WEEK 2019
     imgs: 
       - tag: "Poster presentation by participants."
-        src: 1.jpg
-      - tag: "Participants during the elocution competition."
-        src: 2.jpg
+        src: nsw20191.jpg
+      - tag: "Participants during the oath taking ceremony."
+        src: nsw20195.jpg
       - tag: "Prizes for the competitions held."
-        src: 3.jpg
-  - title: WORLD ENVIRONMENT DAY 2017
-    imgs: 
+        src: nsw20192.jpg
+      - tag: "Banner outside the factory"
+        src: nsw20194.jpg
+  - title: WORLD ENVIRONMENT DAY 2019
+    imgs:
       - tag: ""
-        src: 5.jpg
-      - tag: "Banners displayed at the factory"
-        src: 6.jpg
-      - tag: "Hand Printing activity after taking the World Environment Day pledge."
-        src: 7.jpg
-      - tag: "Tree plantation for World Environment Day."
-        src: 8.jpg
+        src: WED20192.jpg 
+      - tag: ""
+        src: WED20193.jpg
+      - tag: ""
+        src: WED20194.jpg
+      - tag: ""
+        src: WED20195.jpg
+      - tag: "Tree plantations for World Environment Day."
+        src: WED20196.jpg
   - title: NATIONAL SAFETY WEEK 2018
     imgs: 
       - tag: "Poster competition"
@@ -87,7 +91,24 @@ services:
         src: WED183.jpg   
       - tag: "Winners receiving their prizes."
         src: WED185.jpg  
-
+- title: NATIONAL SAFETY WEEK 2017
+    imgs: 
+      - tag: "Poster presentation by participants."
+        src: 1.jpg
+      - tag: "Participants during the elocution competition."
+        src: 2.jpg
+      - tag: "Prizes for the competitions held."
+        src: 3.jpg
+  - title: WORLD ENVIRONMENT DAY 2017
+    imgs: 
+      - tag: ""
+        src: 5.jpg
+      - tag: "Banners displayed at the factory"
+        src: 6.jpg
+      - tag: "Hand Printing activity after taking the World Environment Day pledge."
+        src: 7.jpg
+      - tag: "Tree plantation for World Environment Day."
+        src: 8.jpg
 
 
 
